@@ -46,13 +46,16 @@ ChromeDriver: https://chromedriver.chromium.org/downloads
 FirefoxDriver: https://github.com/mozilla/geckodriver/releases
 MSEdgeDriver: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 
-Used driver executable_path for Edge browser from Drivers folder. For More https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Open%20Browser
+Used driver executable_path for Edge browser from Drivers folder.
+
+For More https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Open%20Browser
 
 # Remote Execution
 
 For BrowserStack:
 Add Username and KEY in remotevariables and enable remote_web_execution as Yes
 Update Browser and Platform details based on requirement.
+
 For More https://automate.browserstack.com/dashboard/v2/getting-started#
 
 # References 
