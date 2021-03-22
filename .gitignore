@@ -162,6 +162,7 @@ $RECYCLE.BIN/
 .DS_Store
 *xml
 Results/*
+output/*
 *.png
 .idea/*
 # End of https://www.gitignore.io/api/python,windows
