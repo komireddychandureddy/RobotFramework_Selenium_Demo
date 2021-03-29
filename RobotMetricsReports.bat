@@ -10,5 +10,3 @@ echo %timestamp%
 @echo "# Generating Demo UI Reports #"
 @echo "#######################################"
 robotmetrics --inputpath %source%\Results\UI_Reports --output output.xml --log log.html
-
-pause

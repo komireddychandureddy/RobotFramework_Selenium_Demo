@@ -70,4 +70,4 @@ Launch Browser
     Call Method    ${options}    add_argument    --disable-notifications
     Run Keyword If    '${REMOTE_WEB_EXECUTION}'=='No' and '${browser_name}'=='Chrome' or '${browser_name}'=='chrome' or '${browser_name}'=='gc'    Open Browser    ${url}    ${browser_name}    options=${options}
     Run Keyword If    '${REMOTE_WEB_EXECUTION}'=='No' '${browser_name}'=='Firefox' or '${browser_name}'=='firefox' or '${browser_name}'=='ff'    Open Browser    ${url}    Firefox
-    Run Keyword If    '${REMOTE_WEB_EXECUTION}'=='No' '${browser_name}'=='Edge' or '${browser_name}'=='edge'    Open Browser    ${url}    Edge    executable_path=${EXECDIR}\\Drivers\\msedgedriver.exe
+    Run Keyword If    '${REMOTE_WEB_EXECUTION}'=='No' '${browser_name}'=='Edge' or '${browser_name}'=='edge'    Open Browser    ${url}    Edge    executable_path=${EXECDIR}/Drivers/msedgedriver.exe

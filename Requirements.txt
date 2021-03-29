@@ -5,7 +5,7 @@ robotframework-seleniumlibrary
 robotframework-dependencylibrary
 robotframework-faker
 robotframework-metrics
-xlrd=1.2.0
+xlrd
 lxml
 allure-robotframework
 robotframework-pabot
